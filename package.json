@@ -1,0 +1,21 @@
+{
+  "name": "gridtest2",
+  "version": "1.0.0",
+  "description": "To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@devexpress/dx-react-core": "^1.0.0-alpha.8",
+    "@devexpress/dx-react-grid": "^1.0.0-alpha.8",
+    "@devexpress/dx-react-grid-bootstrap3": "^1.0.0-alpha.8",
+    "bootstrap": "^3.3.7",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5"
+  }
+}
