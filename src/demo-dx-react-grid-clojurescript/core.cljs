@@ -2,9 +2,6 @@
     (:require
       [reagent.core :as r]))
 
-;; the whole importing thing was done along these instructions:
-;; http://blob.tomerweller.com/reagent-import-react-components-from-npm
-
 ;; -------------------------
 ;; Views
 
@@ -18,19 +15,20 @@
         table-view (aget bs3 "TableView")
         table-header-row (aget bs3 "TableHeaderRow")
 
-        columns [{:name "name" :title "Name"}]
-        rows [{:name "Oliver"}
-              {:name "Bert"}
-              {:name "Jill"}]]
+        columns [{:name "name" :title "Name"}
+                 {:name "age" :title "Age"}]
+        rows [{:name "Oliver" :age 37}
+              {:name "Bert" :age 52}
+              {:name "Jill" :age 31}]]
     [:div
-     [:h2 "Welcome to Oli's test page with a grid"]
+     [:h2 "DevExtreme React Grid"]
      [:> grid {:columns columns :rows rows }
       [:> sorting-state
        {:onSortingChange (fn [sorting] (.log js/console
                                              "sorting changed" sorting))}]
       [:> local-sorting]
       [:> table-view ]
-      [:> table-header-row {:allowSorting true} ]]]))
+      [:> table-header-row {:allowSorting true}]]]))
 
 ;; -------------------------
 ;; Initialize app
