@@ -1,4 +1,4 @@
-(defproject gridtest2 "0.1.0-SNAPSHOT"
+(defproject demo-dx-react-grid-clojurescript "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -28,7 +28,7 @@
   :cljsbuild {:builds {:app
                        {:source-paths ["src" "env/dev/cljs"]
                         :compiler
-                        {:main "gridtest2.dev"
+                        {:main "demo-dx-react-grid-clojurescript.dev"
                          :output-to "public/js/app.js"
                          :output-dir "public/js/out"
                          :asset-path   "js/out"
@@ -38,7 +38,7 @@
                                          :provides ["cljsjs.react" "cljsjs.react.dom" "webpack.bundle"]}]
                          :pretty-print  true}
                         :figwheel
-                        {:on-jsload "gridtest2.core/mount-root"
+                        {:on-jsload "demo-dx-react-grid-clojurescript.core/mount-root"
                          :open-urls ["http://localhost:3449/index.html"]}}
                        :release
                        {:source-paths ["src" "env/prod/cljs"]

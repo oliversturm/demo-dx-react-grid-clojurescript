@@ -1,4 +1,4 @@
-(ns gridtest2.core
+(ns demo-dx-react-grid-clojurescript.core
     (:require
       [reagent.core :as r]))
 

@@ -1,13 +1,13 @@
 {
-  "name": "gridtest2",
+  "name": "demo-dx-react-grid-clojurescript",
   "version": "1.0.0",
-  "description": "To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Oliver Sturm <oliver@oliversturm.com>",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "@devexpress/dx-react-core": "^1.0.0-alpha.8",
     "@devexpress/dx-react-grid": "^1.0.0-alpha.8",
