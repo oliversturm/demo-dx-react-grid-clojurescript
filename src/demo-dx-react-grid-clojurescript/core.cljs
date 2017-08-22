@@ -1,6 +1,7 @@
 (ns demo-dx-react-grid-clojurescript.core
-    (:require
-      [reagent.core :as r]))
+  (:require
+   [reagent.core :as r]
+   [webpack.bundle]))
 
 ;; -------------------------
 ;; Views

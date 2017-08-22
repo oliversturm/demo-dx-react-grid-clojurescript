@@ -8,7 +8,3 @@ window.deps = {
 
 window.React = window.deps['react'];
 window.ReactDOM = window.deps['react-dom'];
-// window.DevExpress = {
-//   DXReactGrid: window.deps['dx-react-grid'],
-//   DXReactGridBootstrap3: window.deps['dx-react-grid-bootstrap3']
-// };
